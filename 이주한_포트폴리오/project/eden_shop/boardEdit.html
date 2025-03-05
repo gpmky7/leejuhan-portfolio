@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항</title>
+    <link rel="stylesheet" href="css/boardCss.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="main/images/favicon/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="main/images/favicon/favicon.ico">
+
+    <!-- CSS Global -->
+    <link href="js/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="fonts/webfont/css/simple-line-icons.css" rel="stylesheet">
+	<link href="fonts/elegantfont/css/elegantfont.css" rel="stylesheet">
+    <link href="js/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+    <link href="js/plugins/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="js/plugins/owlcarousel2/assets/owl.theme.default.min.css" rel="stylesheet">
+	<link href="js/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+    <link href="js/plugins/animate/css/animate.css" rel="stylesheet">
+    <link href="js/plugins/subscribe-newletter/css/subscribe-better.css" rel="stylesheet">
+
+    <link href="css/theme.css" rel="stylesheet">	
+    <link href="css/slide.css" rel="stylesheet">
+	<!-- 슬라이더 -->
+	<link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/plugins/iesupport/html5shiv.js"></script>
+    <script src="js/plugins/iesupport/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="home" class="wide">
+
+    <!-- Wrap all content -->
+    
+    <div class="wrapper">
+        
+        <!-- 팝업 -->
+       <!-- 모바일 320 들어갔을 시 사이즈 안맞음 -->
+       <!-- <div class="subscribe-me">
+           <a href="#close" class="sb-close-btn">x</a>
+           <div id="popup-newsletter">
+               <div class="block-content">
+                   <div class="form-subscribe-header block-title">
+                       <label for="newsletter">Garden of Eden</label>
+                   </div>
+    
+                   <span>Summer BIG SALE</span><br>
+                   <span class="saleoff">여름상품, 가을신상 원가 이하 할인</span>
+                   
+                   <div class="newsletter-new clearfix">
+                       <div class="input-box"><br>
+                           <a class="blogeden" href="#">https://blog.naver.com/0000/0000</a>
+                       </div>
+                       <div class="actions">
+                           여름상품 원가이하 상품부터 가을신상 까지
+                           1만원, 2만원 대의 다양한 상품을 준비했습니다!
+                           평소에 에덴에 찜해 놓았던 상품이 있다면	품절 전 득템해가세요!
+                       </div>
+                   </div>
+                   <div class="subscribe-bottom">
+                       <input type="checkbox">7 일간 다시보지 않기
+                   </div>
+               </div>
+           </div>
+       </div> -->
+       <!-- /팝업 -->
+    <!-- Login popup 
+       sign in  눌렀을시 등장 -->
+    <!-- <div class="modal fade popup-login" id="popup-login" tabindex="-1" role="dialog" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                   <h4 class="modal-title">Login</h4>
+               </div>
+               <div class="modal-body">
+                   <form action="#" method="post" >
+                       <div class="row">
+                           <div class="col-sm-6">
+                               <div class="form-group">
+                                   <label for="popup-login-email">Email</label>
+                                   <input id="popup-login-email" type="text" class="form-control"/>
+                               </div>
+                           </div>
+                           <div class="col-sm-6">
+                               <div class="form-group">
+                                   <label for="popup-login-password">Password</label>
+                                   <input id="popup-login-password" type="password" class="form-control"/>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-sm-12">
+                               <label><input type="checkbox"> Remember me</label> <br class="clear"/>
+                               <a class="link" href="#">Forgot password?</a>
+                           </div>
+                       </div>
+                   </form>
+               </div>
+               <div class="modal-footer">
+                   <button type="button" class="button" data-dismiss="modal"><span>login</span></button>
+               </div>
+           </div>
+       </div>
+    </div> -->
+    <!-- /Login popup -->
+    <!-- TOP LINE
+       여기가 제일 상단 위치  -->
+    <div class="top-line">
+       <div class="container">
+           <div class="row">
+               <div class="top-left col-md-5 col-sm-5 col-xs-5">
+                   <p class="welcome-msg">Shopping Mall eden</p>
+               </div>
+               <div class="top-right col-md-7 col-sm-7 col-xs-7">
+                   <div class="header-setting">
+                       <div class="settting-switcher">
+                           <div class="dropdown-toggle">
+                               <div class="text-setting">Links</div>
+                           </div>
+                           <div class="dropdown-switcher">
+                               <div class="top-links-alo">
+                                   <div class="header-top-link">
+                                       <ul class="links">
+                                           <li class="first"><a title="My Account" href="myPage.html">My Account</a></li>
+                                           <li><a title="My Wishlist" href="wishlist.html">My Wishlist</a></li>
+                                           <li><a class="top-link-checkout" title="Checkout" href="checkout.html">Checkout</a></li>
+                                           <li><a title="Testimonial" href="#">Testimonial</a></li>
+                                           <li class=" last"><a title="Log In" href="login.html">Log In</a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <ul class="top-links">
+                           <li class="login">
+                               <a href="login.html" >로그인</a>
+                           </li>
+                           <li>
+                               <span class="or">Or</span>
+                           </li>
+                           <li class="first">
+                               <a title="Register" href="memberShipLoge.html" style="position:relative;" id="quick_sigup_link">회원가입</a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+    <!-- /TOP LINE -->
+    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row1">
+                    <div class="content-seach col-md-4 col-sm-4 col-xs-12">
+                        <div class="header-search">
+                            <form method="get" id="search_mini_form">
+                                <div class="form-search clearfix">
+                                    <label for="search">Search</label>
+                                    <input type="search" placeholder="Search here..." maxlength="128" class="input-text required-entry" value="" name="q" id="search" autocomplete="off">
+                                    <button class="button" title="Search" type="submit"><span><span><i aria-hidden="true" data-icon="U" class="fs1"></i></span></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="content-logo col-md-4 col-sm-4 col-xs-12">
+                        <div class="header-logo">
+                            <h1 class="logo">
+                                <a href="index.html" class="scroll-to"><img alt="ALO Themes" src="images/logo/eden01.jpg" class="img-responsive" width="150px" height="150px" ></a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="content-cart menu-mobile col-md-4 col-sm-4 col-xs-12">
+                        <!-- Mobile menu toggle button-->
+                        <!-- 수업 때 배운 햄버거 메뉴와 동일 -->
+                        <a href="#" class="menu-toggle btn"><i class="fa fa-bars"></i></a>
+                        <!-- /Mobile menu toggle button-->
+                        <div class="miniCartWrap pull-right">
+                            <div class="mini-maincart">
+                                <div class="cartSummary">
+                                    <div class="cart-icon">
+                                     <!-- <i class="fa fa-heart-o"></i> -->
+                                        <span class="fa fa-heart-o" id="heart"></span>
+                                        <span class="zero">0 </span>
+                                        <p class="mt-cart-title">My Cart</p>
+                                        <!-- My Cart 숨김 표현 -->
+                                    </div>
+                                    <!-- <div class="cart-header">
+                                        <p class="cart-tolatl">
+                                            <span><span class="price">0</span></span>
+                                        </p>
+                                    </div>	 -->
+                                </div>
+
+                                
+
+						   <!-- 장바구니 숨김 -->
+						   <!-- <div class="mini-contentCart">
+							   <div class="block-content">
+								   <p class="block-subtitle">Recently added item(s)</p>
+								   <ol class="mini-products-list clearfix" id="cart-sidebar">
+									   <li class="item clearfix">
+										   <div class="cart-content-top">
+											   <a class="product-image" title="Wave Ripped Straight" href="#">
+												   <img width="60" height="77" alt="Wave Ripped Straight" src="images/preview/shop/minicart/minicart.jpg">
+											   </a>
+											   <div class="product-details">
+											   <p class="product-name"><a href="detail.html">Wave Ripped Straight</a></p>
+											   <strong>1</strong> x<span class="price">$367.00</span>                                
+											   </div>
+										   </div>
+										   <div class="cart-content-bottom">
+											   <div class="clearfix">
+												   <a class="btn-remove btn-remove2" title="Remove" href="#"><i class="icon-close icons"></i></a>
+											   </div>
+										   </div>
+									   </li>
+									   <li class="item clearfix">
+										   <div class="cart-content-top">
+											   <a class="product-image" title="Wave Ripped Straight" href="#">
+												   <img width="60" height="77" alt="Wave Ripped Straight" src="main/images/preview/shop/minicart/minicart.jpg">
+											   </a>
+											   <div class="product-details">
+											   <p class="product-name"><a href="detail.html">Wave Ripped Straight</a></p>
+											   <strong>1</strong> x<span class="price">$367.00</span>                                
+											   </div>
+										   </div>
+										   <div class="cart-content-bottom">
+											   <div class="clearfix">
+												   <a class="btn-remove btn-remove2" title="Remove" href="#"><i class="icon-close icons"></i></a>
+											   </div>
+										   </div>
+									   </li>
+								   </ol>
+
+
+								   <p class="subtotal">
+									   <span class="label">Subtotal:</span> <span class="price">$734.00</span>
+								   </p>
+								   <div class="actions">
+									   <a class="view-cart" href="cart.html">View cart  </a>
+									   <a  class="checkout btn-call-checkout" href="checkout.html">Checkout </a>
+								   </div>
+							   </div>
+						   </div> -->
+						   
+						    <!-- 장바구니 숨김 -->
+
+							
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header header-sticky">
+            <div class="container">
+                <div class="header-wrapper clearfix">
+                    <!-- Navigation -->
+                    <nav class="navigation closed clearfix">
+                        <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                        <ul class="sf-menu nav">
+                            <li class="active">
+                                <a href="index.html">전체상품</a>								
+                            </li>
+                            <li>
+                                <a href="outer.html">outer</a> 
+                                <ul>
+                                 <li><a href="#">Coat</a></li>
+                                    <!-- <li class="row">
+                                        <div class="col-md-2 col-item">
+                                             <a>coat</a>
+                                        </div>
+                                                    
+                                        <div class="col-md-2 col-item">
+                                        </div>
+                                                    
+                                        <div class="col-md-2 col-item">
+                                        </div>
+                                        
+                                        <div class="col-md-2 col-item">
+                                        </div>
+                                        <div class="col-md-2 col-item col-menu-right">
+                                        </div>
+                                    </li> -->
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="outer.html">top</a>
+                                <ul>
+                                    <li><a href="#">T-shirt</a></li>
+                                    <li><a href="#">Long Sleeve</a></li>
+                                    <li><a href="#">Sweat Shirt (M to M)</a></li>
+                                    <li><a href="#">Hoody (Hood - Tshirt)</a></li>
+                                    <li><a href="#">Neat</a></li>
+                             </ul>
+                            </li>							
+                            <li>
+                                <a href="outer.html">pants</a>
+                                    <ul>
+                                     <li><a href="#"></a></li>
+                                     <li><a href="#"></a></li>
+                                     <li><a href="#"></a></li>
+                                 </ul>								
+                            </li>								
+                            <li>
+                                <a href="outer.html">etc</a>								
+                            </li>							
+                            <li>
+                                <a href="boardList.html">묻고 답하기</a>								
+                            </li>
+                            <li>
+                                <a href="boardList.html">공지사항</a>								
+                            </li>							
+                        </ul>
+                    </nav>
+                    <!-- /Navigation -->
+     
+                </div>
+            </div>
+        </div>
+     </header>
+    <div class="board_wrap">
+        <div class="board_title">
+            <h2>공지사항</h2>
+        </div>
+        <div class="board_write_wrap">
+            <div class="board_write">
+                <div class="title">
+                    <dl>
+                        <dt>제목</dt>
+                        <dd><input type="text" placeholder="제목 입력" value="공지사항 입니다."></dd>
+                    </dl>
+                </div>
+                <div class="info">
+                    <dl>
+                        <dt>글쓴이</dt>
+                        <dd><input type="text" placeholder="글쓴이 입력" value="JH123"></dd>
+                    </dl>
+                    <dl>
+                        <dt>비밀번호</dt>
+                        <dd><input type="password" placeholder="비밀번호 입력" value="1234"></dd>
+                    </dl>
+                </div>
+                <div class="cont">
+                    <textarea placeholder="내용 입력">
+내용을 입력하세요.
+내용을 입력하세요.
+내용을 입력하세요.
+내용을 입력하세요.
+내용을 입력하세요.
+                    </textarea>
+                </div>
+            </div>
+            <div class="bt_wrap">
+                <a href="boardView.html" class="on">수정</a>
+                <a href="boardView.html">취소</a>
+            </div>
+        </div>
+    </div>
+
+      <!-- FOOTER -->
+	<footer class="footer">
+        <div class="footer-container footer-color color">
+			<div class="block-footer-top">
+				<div class="container">
+					<div class="main">
+						<div class="footer">
+							<div class="row fadeInUp alo-animate" data-wow-duration="1s" data-wow-delay="0.4s">
+								<div class="block1 block-content-statick feature_box">
+									<ul class="feature">
+										<li class="feature-icon first">
+											<p class="no-margin"><span>Add</span>경기도 안양시 만안구 0000 - 000호</p>
+										</li>
+										<li class="feature-icon second">
+											<p><span>Tel</span>010-000-0000</p>
+										</li>
+										<li class="feature-icon third">
+											<p><span>Email</span>edendisplay@naver.com</p>
+										</li>
+									</ul>
+									<div class="links copy">								       
+										<address>Copyright &copy; 2023  by <a title="Alothemes" href="edendisplay" class="active">edendisplay</a> All rights reserved</address>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12 logo_box">
+									<h2 class="logo-text">Garden of Eden</h2>
+									<ul class="list-inline">
+										<li><a href="#" class="social-link twitter"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+										<li><a href="#" class="social-link google-plus"><i class="fa fa-google-plus"><span class="hidden">google-plus</span></i></a></li>
+										<li><a href="#" class="social-link facebook"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+										<li><a href="#" class="social-link tumblr"><i class="fa fa-tumblr"><span class="hidden">tumblr</span></i></a></li>
+										<li><a href="#" class="social-link pinterest"><i class="fa fa-pinterest"><span class="hidden">pinterest</span></i></a></li>
+									</ul>
+								</div>							
+							</div>         
+						</div>
+					</div>
+				</div>
+			</div>		
+    </footer>
+     <!-- /FOOTER -->
+
+     <script src="js/plugins/jquery/jquery-2.1.4.min.js"></script><!--<![endif]-->
+<script src="js/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="js/plugins/superfish/js/superfish.min.js"></script>
+<script src="js/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="js/plugins/jquery.sticky.min.js"></script>
+<script src="js/plugins/jquery.easing.min.js"></script>
+<script src="js/plugins/animate/js/animate.js"></script>
+<script src="js/plugins/subscribe-newletter/js/jquery.subscribe-better.js"></script>
+
+<!-- JS Page Level -->
+ <script src="js/plugins/owlcarousel2/owl.carousel.min.js"></script> 
+<script src="js/plugins/waypoints/waypoints.min.js"></script>
+<script src="js/theme-ajax-mail.js"></script>
+<script src="js/theme.js"></script>
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="js/plugins/jquery.cookie.js"></script>
+<script src="js/theme-config.js" type="text/html"></script>
+<!--<![endif]-->
+<script>
+new WOW().init();
+</script>
+</body>
+</html>

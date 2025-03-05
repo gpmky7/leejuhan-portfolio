@@ -1,0 +1,355 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,800,900,600);
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;  
+    color: #353535;
+    background-color: rgb(255, 255, 255);
+    -webkit-font-kerning: auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: visible !important; 
+     position: relative; 
+  }
+
+#content {
+    /* position: absolute; */
+    left: 50%;    
+    width: 45%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px gray; 
+    margin: 0 auto;
+    margin-top: 80px;  
+    margin-bottom: 50px;
+}
+
+input:focus {
+    outline: none;
+}
+.title{
+    width: 100%;
+    height: 110px;
+    padding: 30px 30px 0px 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.title-font {
+    font-weight: bold;    
+}
+
+.join_title {
+    margin: 19px 0 8px;
+    font-size: 13px;   
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+.box {
+    display: block;
+    width: 93%;
+    height: 44px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+     margin-left: 3%;     
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;    
+}
+.box_bir {
+    display: block;
+    width: 75%;
+    height: 44px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    margin-left: 10%;    
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative; 
+}
+
+.int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+}
+.box.int_id {
+    padding-right: 110px;
+}
+
+.box.int_pass {
+    padding-right: 40px;
+}
+
+.box.int_pass_check {
+    padding-right: 40px;
+}
+select {
+    width: 100%;
+    height: 29px;
+    font-size: 15px;   
+    background-size: 20px 8px;    
+    display: inline-block;
+    text-align: start;
+    border: none;
+    cursor: default;  
+}
+#bir_wrap {
+    display: table;
+    width: 100%;
+}
+
+#bir_yy {
+    display: table-cell;
+    width: 33.3%;
+    
+}
+
+#bir_mm {
+    display: table-cell;
+    width: 33.3%;
+    vertical-align: middle;
+}
+
+#bir_dd {
+    display: table-cell;
+    width: 33.3%;
+}
+
+#bir_mm, #bir_dd {
+    padding-left: 10px;
+}
+.btn_area {
+    margin: 30px 0 91px;    
+}
+#btnJoin {    
+    width: 25%;
+    height: 44px;
+    padding: 21px 0 17px;   
+    cursor: pointer;    
+    float: left;   
+    margin-left: 15%;     
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    color: #313131;
+    font-weight: bold;
+    line-height: 0px;
+    margin-top: 50px;
+   
+}
+#btncle{
+    width: 25%;
+    height: 44px;
+    padding: 21px 0 17px;   
+    cursor: pointer;    
+    float: left;   
+    margin-left: 15%;     
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    color: #313131;
+    font-weight: bold;
+    line-height: 0px;
+    margin-top: 50px;
+    
+}
+#btnJoin:hover {
+    background-color: black;
+    color: #fff;
+}
+#btncle:hover {
+    background-color: black;
+    color: #fff;
+}
+ /* 테블릿 가로, 테블릿 세로 (해상도 768~1023)  */
+@media all and(min-width:768px) and (max-width:1023px){    
+    .content{        
+        left: 50%;    
+        width: 45%;
+        min-width: 560px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 2px 2px 20px gray; 
+        margin: 0 auto;
+        margin-top: 80px;  
+        margin-bottom: 50px;
+}
+}
+ /* 모바일 가로, 모바일 세로 (해상도 480~767)  */
+@media all and (max-width:767px) {
+    #content {
+        left: 50%;    
+        width: 80%;
+        min-width: 260px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 80px;  
+        margin-bottom: 50px;
+    }
+    
+input:focus {
+    outline: none;
+}
+.title{
+    width: 100%;
+    height: 110px;
+    padding: 30px 30px 0px 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.title-font {
+    font-weight: bold;    
+}
+
+.join_title {
+    margin: 19px 0 8px;
+    font-size: 13px;   
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+.box {
+    display: block;
+    width: 93%;
+    height: 44px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+     margin-left: 3%;     
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;    
+}
+.box_bir {
+    display: block;
+    width: 75%;
+    height: 44px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    margin-left: 10%;    
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative; 
+}
+
+.int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+}
+.box.int_id {
+    padding-right: 110px;
+}
+
+.box.int_pass {
+    padding-right: 40px;
+}
+
+.box.int_pass_check {
+    padding-right: 40px;
+}
+select {
+    width: 100%;
+    height: 29px;
+    font-size: 15px;   
+    background-size: 20px 8px;    
+    display: inline-block;
+    text-align: start;
+    border: none;
+    cursor: default;  
+}
+#bir_wrap {
+    display: table;
+    width: 100%;
+}
+
+#bir_yy {
+    display: table-cell;
+    width: 33.3%;
+    
+}
+
+#bir_mm {
+    display: table-cell;
+    width: 33.3%;
+    vertical-align: middle;
+}
+
+#bir_dd {
+    display: table-cell;
+    width: 33.3%;
+}
+
+#bir_mm, #bir_dd {
+    padding-left: 10px;
+}
+.btn_area {
+    margin: 30px 0 91px;    
+}
+#btnJoin {    
+    width: 25%;
+    height: 44px;
+    padding: 21px 0 17px;   
+    cursor: pointer;    
+    float: left;   
+    margin-left: 15%;     
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    color: #313131;
+    font-weight: bold;
+    line-height: 0px;
+   
+}
+#btncle{
+    width: 25%;
+    height: 44px;
+    padding: 21px 0 17px;   
+    cursor: pointer;    
+    float: left;   
+    margin-left: 15%;     
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    color: #313131;
+    font-weight: bold;
+    line-height: 0px;
+    
+}
+#btnJoin:hover {
+    background-color: black;
+    color: #fff;
+    transition: all 0.5s;
+}
+#btncle:hover {
+    background-color: black;
+    color: #fff;
+    transition: all 0.5s;
+}
+}

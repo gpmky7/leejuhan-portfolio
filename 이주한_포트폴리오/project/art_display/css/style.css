@@ -1,0 +1,456 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/* menubar */
+
+#all-site {
+  width: 100%;
+  overflow: hidden;
+}
+
+#all-site .menubar-box {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  z-index: 999;
+}
+
+#menubar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  width: 38%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+#menubar .me {
+  color: #fff;
+}
+
+#menubar .me:hover {
+  border-bottom: 2px solid #fff;
+}
+
+#menubar li a {
+  line-height: 1;
+  margin: 0.1em;
+  padding: 0.5em 1em;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  width: 33%;
+}
+
+
+/* home */
+
+#home {
+  width: 100%;
+  position: relative;
+}
+
+#home .home-txt p {
+  position: absolute;
+  color: #fff;
+  float: left;
+  top: 30%;
+  left: 30%;
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+
+
+#home .home-txt video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+
+/* museum */
+
+#museum {
+  width: 100%;
+}
+
+#museum .museum-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+#museum .title-box {
+  margin-top: 5%;
+  width: 100%;
+}
+
+#museum .museum-box h3 {
+  border-bottom: 4px solid #fff;
+  color: #fff;
+  display: inline-block;
+  letter-spacing: 0.025em;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 3;
+}
+
+#museum .museum-left {
+  margin-right: 10%;
+  margin-top: 40px;
+  position: relative;
+}
+
+#museum .museum-left img {
+  width: 350px;
+  height: 450px;
+
+}
+
+#museum .profile-bottom {
+
+  margin-top: 10%;
+  width: 60%;
+  height: 300px;
+
+}
+
+
+#museum .bottom-txt {
+  color: #fff;
+  line-height: 2;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#museum .bottom-box p {
+
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: #fff;
+}
+.profile-bottom>button {
+  margin-top: 5%;
+  width: 150px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 20px;
+  border-color: #fff;
+}
+.profile-bottom button>p {
+  color: #fff;
+  
+}
+
+
+/* parallax */
+#parallax__cont {
+  overscroll-behavior: none;
+  width: 800%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+}
+  .parallax__item {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;    
+    justify-content: flex-start; 
+    
+}
+.parallax__item__imgWrap {
+    width: 30%;
+    padding-bottom: 18%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.parallax__item__img {
+    position: absolute;
+    left: 13%;  
+    top: -5%;
+    width: 110%;
+    height: 110%;    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: saturate(0%);
+    transition: all 1s;
+}
+.parallax__item__img:hover {
+    filter: saturate(100%);
+    transform: scale(1.025);
+}
+#section1 .parallax__item__img {
+    background-image: url(../images/sc-louvre_img1.jpg);
+}
+#section2 .parallax__item__img {
+    background-image: url(../images/sc-louvre_img2.jpg);
+}
+#section3 .parallax__item__img {
+    background-image: url(../images/sc-louvre_img3.jpg);
+}
+#section4 .parallax__item__img {
+    background-image: url(../images/sc-louvre_img4.jpg);
+}
+#section5 .parallax__item__img {
+    background-image: url(../images/sc-louvre_img5.jpg);
+}
+
+
+#section1, #section2, #section3, #section4, #section5 {
+    background-color: #000;
+}
+
+.parallax__text {  
+  display: flex;
+  margin-left: 2%;
+  width: 30%;
+ 
+  
+}
+.parallax__text p{
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.5;
+}
+.parallax__text span{
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 3;  
+  
+}
+
+
+
+
+ .support {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.support a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.8rem;
+  backface-visibility: hidden;
+  transition: all 150ms ease;
+}
+
+.support a:hover {
+  transform: scale(1.1);
+}
+ 
+/* parallax2 */
+
+#parallax__para {
+  width: 100%;
+  position: relative;
+}
+
+.para__cont1 {
+  width: 100%;
+  height: 100vh; 
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.para__cont2 {
+  width: 100%;
+  height: 100vh; 
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.para_fix {
+   
+  position: fixed;
+  left: 41%;
+  top: 40%;
+  bottom: 0;
+  z-index: 998;
+}
+
+.para_fix img {
+  width: 35%;
+  height: 150px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+
+.para {
+  width: 50%; 
+  margin-bottom: 10px;
+  color: #fff;
+  
+}
+.para_pix1 img {
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 400px;
+  height: 400px;
+}
+
+.para_pix2 img {
+  margin-top: 30%;
+  width: 700px;
+  height: 400px;
+}
+
+.para_pix3 img {
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 700px;
+  height: 400px;
+}
+.para_pix4 img {
+  margin-left: 25%;
+  margin-top: 30%;
+  width: 400px;
+  height: 400px;
+}
+
+.para__cont3 {
+  width: 100%;
+  height: 100vh; 
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+.vis-txt1 {
+  color: #fff;
+  margin-top: 30%;
+}
+
+.para__cont3>button {
+  margin-top: 43%; 
+  width: 300px;
+  height: 50px;
+  background-color: #e3e4d1; 
+  position: absolute;
+  
+}
+
+.vis-txt2 { 
+  font-weight: 700;
+  color: #000;
+}
+
+
+
+
+ /* 미디어쿼리 */
+@media screen and (max-width: 600px) {
+  #home .home-txt p {
+    font-size: 2rem;
+    top: 35%;
+    left: 30%;
+
+    }
+
+ 
+    .parallax__text p{
+      font-size: 10px;      
+      line-height: 1.5;
+    }
+    .parallax__text span{
+      font-size: 15px;
+      font-weight: 600;      
+      line-height: 3;
+      
+      
+      
+    }
+
+    .para_pix1 img {
+      margin-left: 10%;
+      margin-top: 10%;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .para_pix2 img {
+      margin-top: 30%;
+      width: 200px;
+      height: 400px;
+    }
+    
+    .para_pix3 img {
+      margin-left: 10%;
+      margin-top: 10%;
+      width: 200px;
+      height: 400px;
+    }
+    .para_pix4 img {
+      margin-left: 25%;
+      margin-top: 30%;
+      width: 150px;
+      height: 200px;
+    }
+
+    .vis-txt1 {
+      margin-top: 85%;
+      font-size: 10px;   
+    }
+
+    .para__cont3>button {
+      margin-top: 110%; 
+      width: 200px;
+      height: 40px;
+      
+      
+    }
+    .vis-txt2 { 
+      font-weight: 700;
+      font-size: 10px;
+      
+    }
+
+  }
+  
+
+

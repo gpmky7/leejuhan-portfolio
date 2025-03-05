@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>아트</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+	<!-- partial -->
+	<script src='https://unpkg.com/ionicons@5.0.0/dist/ionicons.js'></script>
+	<!-- script -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="js/aos.js" defer></script>
+	<script src="js/hero.js" defer></script>
+	<!-- gsap -->
+	<script src="js/parallax.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+
+	
+</head>
+
+<body>
+	<div id="all-site">
+		<!-- menubar -->
+		<div class="menubar-box">
+			<ul id="menubar">
+				<li><a href="#home" class="me">Home</a></li>
+				<li><a href="#museum" class="me">Museum</a></li>
+				<li><a href="#parallax__cont" class="me">Papers</a></li>
+				<li><a href="#parallax__para" class="me">Images</a></li>
+				
+			</ul>
+		</div>
+		<!-- home-->
+		<div id="home">
+			<div class="home-txt">
+				<p>Bienvenue au Louvre<br>					
+				</p>
+
+			</div>
+			<div class="home-txt">
+				<video src="images/cover.mp4" muted autoplay loop></video>
+			</div>
+		</div>
+
+		<!-- museum -->
+
+		<div id="museum">
+			<div class="museum-box">
+				<div class="title-box">
+					<h3>Meilleur chef-d'œuvre de Léonard de Vinci</h3>
+				</div>
+
+
+				<div class="museum-left" data-aos="fade-up">
+					<img src="./images/monalisa.jpg">
+				</div>
+
+				<div class="profile-bottom">
+					<ul class="bottom-box" data-aos="fade-up" data-aos-delay="300">
+						<li>
+							<span class="bottom-txt">Monna Lisa</span>
+							<p>
+								C’est le portrait le plus célèbre du monde, celui de Monna Lisa, l’épouse du<br>marchand
+								d’étoffes florentin, Francesco
+								del Giocondo, surnommée la « Gioconda »<br> francisé La Joconde. Peinte devant un
+								paysage lointain, la Joconde nous
+								regarde,<br> son légendaire sourire aux lèvres. Mais outre son expression, c’est la
+								technique du<br> sfumato qui lui confère
+								cette présence si particulière : Léonard de Vinci a superposé<br> de fines couches de
+								peintures jusqu’à créer des formes
+								tout en atténuant<br> les contours et les contrastes. L’artiste saisit l’instant où
+								Monna Lisa se tourne vers le
+								spectateur.<br> C’est ce mouvement si naturel qui donne une impression de vie au
+								tableau.
+							</p>
+						</li>
+					</ul>
+					<button>
+						<p data-aos="fade-right" data-aos-delay="300">Voir l'œuvre à la loupe</p>
+					</button>
+
+				</div>
+			</div>
+		</div>
+
+
+		 <!-- parallax  -->
+
+		 <main id="parallax__cont">
+			<section id="section1" class="parallax__item">
+				
+				<figure class="parallax__item__imgWrap">
+					<div class="parallax__item__img"></div>					
+				</figure>
+				<div class="parallax__text">
+					<p>
+						<span>chef-d'œuvre antique de la collection royale</span><br>
+						Avec le roi Henri II, le château médiéval se métamorphose en palais<br>
+						Renaissance. Pour cette majestueuse salle de bal,<br>
+						l’architecte Pierre Lescot conçoit un décor à l’antique, avec une<br>
+						tribune pour les musiciens soutenue par des cariatides : ces statues-colonnes<br>
+						inspirées de Rome. Une manière pour l’architecte de faire d’Henri<br>
+						II l’égal de l’empereur romain Auguste<br>
+						Cet espace change de vocation en 1692 : on y expose les sculptures<br>
+						antiques, auxquelles les souverains s'intéressent à partir de la<br>
+						Renaissance. La Diane chasseresse est l’une des premières à être entrées<br>
+						dans les collections royales. Quant à l’Hermaphrodite endormi, il a été acheté<br>
+						en 1807 par Napoléon Ier. Il faut en faire le tour pour comprendre tous les<br>
+						aspects de la troublante créature.
+					</p>
+				</div>
+			</section>
+			<!-- //section1 -->
+	
+			<section id="section2" class="parallax__item">
+				
+				<figure class="parallax__item__imgWrap">
+					<div class="parallax__item__img"></div>
+					
+				</figure>
+				<div class="parallax__text">
+					<p>
+						<span>Aphrodite, dite Vénus de Milo</span><br>
+						La douceur de son regard et son déhanché auraient-ils suffi à la distinguer<br> d’autres déesses sculptées ? Cette Vénus<br>
+						s’est taillée une réputation dès son entrée au Louvre en 1821.<br> Découverte sur l’île grecque de Milo, elle a été offerte<br>
+						à Louis XVIII qui la donne à son tour au Louvre.<br>						
+						Six ans plus tôt, après la défaite de Napoléon à Waterloo,<br> le traité de Vienne avait imposé la restitution de quelque 5<br>
+						000 œuvres saisies lors des conquêtes. Le Louvre, plus<br> grand musée du monde sous le Premier Empire (1804 – 1815),<br>
+						notamment pour sa collection d’antiques, avait vu ses salles se<br> vider. Ainsi, lorsque la Vénus de Milo arrive, elle est<br>
+						saluée et valorisée comme un chef-d’œuvre. Depuis, elle n’a jamais<br> cessé de séduire, copiée par les artistes ou<br>
+						détournée, de mille façons,<br>par l’art et la culture populaire.
+						
+					</p>
+				</div>
+			</section>
+			<!-- //section2 -->
+	
+			<section id="section3" class="parallax__item">
+				
+				<figure class="parallax__item__imgWrap">
+					<div class="parallax__item__img"></div>
+				</figure>
+				<div class="parallax__text">
+					<p>
+						<span>La Victoire de Samothrace</span><br>
+						Du haut de l’escalier Daru, la Victoire de Samothrace est désormais<br>une icône intemporelle de l’art occidental. On l’a<br>
+						découverte dans un sanctuaire de l’île de Samothrace,<br>où les incantations protégeaient des dangers de la mer.<br>						
+						L’emplacement originel de la statue, mise en scène de manière<br>spectaculaire, révèle qu’elle a été sculptée pour être vue<br>
+						de trois quarts du côté gauche. De là, on apprécie le mouvement<br> de son manteau qui claque au vent et les effets de<br>
+						transparence du « drapé mouillé ». Une déesse ailée<br>sur un navire de guerre dans un sanctuaire : aucun doute, c’est<br>
+						Niké, la messagère venue annoncer une victoire.
+					</p>
+				</div>
+			</section>
+			<!-- //section3 -->
+	
+			<section id="section4" class="parallax__item">
+				
+				<figure class="parallax__item__imgWrap">
+					<div class="parallax__item__img"></div>
+				</figure>
+				<div class="parallax__text">
+					<p>
+						<span>Vénus et Sammisin</span><br>
+						Les fresques du peintre Sandro Botticelli sont arrivées au Louvre en 1882,<br>après avoir été (re)découvertes, en Italie.<br>
+						C’est en 1873, lors de la rénovation d’une villa près de Florence,<br>que sous de la chaux – un mélange minéral dont on<br>
+						enduit les murs pour les blanchir sont apparus ces chefs-d’œuvre de la Renaissance.<br> À cette époque, la demeure
+						appartenait à une riche famille qui avait sans<br> doute commandé les fresques à Botticelli, alors très réputé.<br>						
+						L’artiste aurait mis en scène la jeune fille de la maison avec des<br> héroïnes de l’Antiquité et un Cupidon, peut-être à<br>
+						l’occasion de ses fiançailles. Sur le mode allégorique,<br>ce sont des idées que Botticelli représente : plus que le cadeau<br>
+						lui-même, c’est le geste du don qui importe.Une autre fresque,<br> tout aussi allégorique, montre un jeune homme que la<br>
+						Prudence présente à la Grammaire entourée des Arts libéraux.<br>On aimerait lui donner le rôle du fiancé…
+					</p>
+				</div>
+
+			</section>
+			<!-- //section4 -->
+	
+			<section id="section5" class="parallax__item">
+				
+				<figure class="parallax__item__imgWrap">
+					<div class="parallax__item__img"></div>
+				</figure>
+				<div class="parallax__text">
+					<p>
+						<span>Psyché ranimée par le baiser de l'Amour</span><br>
+						En pénétrant dans la galerie Michel-Ange, c’est peut-être l’œuvre d’un autre sculpteur italien<br> qui attirera votre
+						regard, accroché par l’aile de Cupidon… Antonio Canova s’était fait une<br>spécialité de représenter les épisodes de la
+						mythologie dans des marbres délicats qui ont<br>séduit les poètes romantiques à la fin du 19e siècle.						
+						Et l’on comprend pourquoi.<br> Canova réussit à incarner un sentiment dans la pierre : c’est la sensation même de l’élan<br>
+						amoureux qui saisit dès qu’on embrasse du regard<br> l’inséparable duo… Canova n’a pas seulement copié un modèle antique, il
+						en a travaillé<br> la mise en scène de manière quasi<br> chorégraphique : il a pertinemment choisi le moment où la déesse
+						revient à la vie.<br>Et c’est ce mouvement qui nous séduit<br> aujourd’hui encore, au-delà de l’histoire universelle qu’il
+						raconte.
+					</p>
+				</div>
+			</section>
+			<!-- //section5 -->			
+		</main>
+
+
+		<!-- parallax2 -->
+		<div id="parallax__para">
+		<div class="para__cont1">
+			<div class="para_fix">
+			<img src="images/logo.png"> 
+			</div>	
+			<div class="para para_pix1" data-aos="fade-up" >
+				<img src="images/intro-img1.jpg" >
+			</div>
+			<div class="para para_pix2" data-aos="fade-up">
+				<img src="images/intro-img2.jpg">
+			</div>			
+		</div>
+
+		<div class="para__cont2">
+			<div class="para para_pix3" data-aos="fade-up">
+				<img src="images/intro-img3.jpg" >
+			</div>
+			<div class="para para_pix4" data-aos="fade-up">
+				<img src="images/intro-img4.jpg" >
+			</div>
+		</div>
+
+		<div class="para__cont3">
+			<p class="vis-txt1">
+				Ancienne résidence de chasse des souverains Bourbon, le palais (la Reggia en italien)<br>
+				abrite aujourd’hui l’un des plus grands musées d’Italie et l’une des plus importantes<br>
+				pinacothèques d’Europe, tant par le nombre que par la qualité exceptionnelle des<br>
+				œuvres conservées. Capodimonte est l’un des seuls musées de la péninsule dont les<br>
+				collections permettent de présenter l’ensemble des écoles de la peinture italienne. Il<br>
+				abrite également le deuxième cabinet de dessins d’Italie après celui des Offices ainsi<br>
+				qu’un ensemble remarquable de porcelaines. 
+			</p>
+			<button data-aos="fade-left" data-aos-delay="300">
+				<p class="vis-txt2">*Visite du musée Capodimonte →</p>
+			</button>
+		</div>
+
+		<!-- hero-section -->
+
+		
+	
+
+	
+
+
+
+		 <div class="support">
+			<a href="https://www.youtube.com/watch?v=CZ0oZPO-10E&t=135s" target="_blank"><i
+					class="fab fa-youtube"></i></a>
+			<a href="https://www.louvre.fr/en/" target="_blank"><i class="fab fa-dribbble"></i></a>
+		</div>
+ 
+
+
+
+	</div>
+</body>
+
+</html>

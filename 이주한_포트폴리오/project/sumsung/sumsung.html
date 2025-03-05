@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumsung</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- script -->
+    <script src="js/hamburger.js" defer></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js" defer></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js" defer></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- buticul -->
+    <script src="js/buticul.js" defer></script>
+
+</head>
+
+<body>
+    <!-- hamburger-menu -->
+    <header>
+        <nav>
+            <div id="hamburger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#hamburger-menu">Home</a></li>
+                <li><a href="#cont-box">Galaxy</a></li>
+                <li><a href="#swiper">EVENT</a></li>
+                <li><a href="#buticul-box">STORY</a></li>
+            </ul>
+
+        </nav>
+        <!-- sum-box -->
+
+        <div class="sum-box">
+
+            <img src="images/sumsung1.png">
+        </div>
+    </header>
+
+    <div id="cont-box">
+        <h1>New Galaxy</h1>
+        <div class="maintw">
+            <div class="maintw-box" data-product="1">
+                <img id="productImage-1" src="images/buzz1-grey.png">
+                <span>Galaxy buzz3 pro</span>
+                <label class="custom-radio" for="col1-1">
+                    <input type="radio" id="col1-1" name="col1" class="grey col-blind" value="grey" checked />
+                    <span class="col-btn"></span>
+                </label>
+                <label class="custom-radio" for="col1-2">
+                    <input type="radio" id="col1-2" name="col1" class="black col-blind" value="black" />
+                    <span class="col-btn"></span>
+                </label>
+
+            </div>
+            <div class="maintw-box" data-product="2">
+                <img id="productImage-2" src="images/buzz2-grey.png">
+                <span>Galaxy buzz3</span>
+                <label class="custom-radio" for="col2-1">
+                    <input type="radio" id="col2-1" name="col2" class="grey col-blind" value="grey" checked />
+                    <span class="col-btn"></span>
+                </label>
+                <label class="custom-radio" for="col2-2">
+                    <input type="radio" id="col2-2" name="col2" class="white col-blind" value="white" />
+                    <span class="col-btn"></span>
+                </label>
+            </div>
+            <div class="maintw-box" data-product="3">
+                <img id="productImage-3" src="images/buzz3-purple.png">
+                <span>Galaxy Buzz2 pro</span>
+                <label class="custom-radio" for="col3-1">
+                    <input type="radio" id="col3-1" name="col3" class="purple col-blind" value="purple" checked />
+                    <span class="col-btn"></span>
+                </label>
+                <label class="custom-radio" for="col3-2">
+                    <input type="radio" id="col3-2" name="col3" class="pink col-blind" value="pink" />
+                    <span class="col-btn"></span>
+                </label>
+            </div>
+        </div>
+        <!-- main-fo  -->
+        <div class="main-fo">
+            <div class="cont-lef">
+                <img src="images/sumsung2.png" data-aos="zoom-in">
+            </div>
+
+            <div class="cont-rig">
+                <p>New model
+                <p><br>
+                <h2>Galaxy S25 Ultra</h2><br>
+                <p>프로세서 : 퀄컴 스냅드래곤 8 Elite</p><br>
+                <p>디스플레이 : 6.8인치 QHD+ 다이내믹 AMOLED 2X</p><br>
+                <p>메모리 : 12GB / 16GB</p><br>
+                <p>저장용량 : 256GB / 512GB / 1TB</p><br><br>
+                <button class="button"><a href="#">자세히 보기</a>
+            </div>
+        </div>
+
+        <div class="main-fo1">
+            <div class="cont-rig2">
+                <p>New model
+                <p><br>
+                <h2>Galaxy Z Flip6</h2><br>
+                <p>프로세서 : 퀄컴 스냅드래곤 8 GEN 3</p><br>
+                <p>디스플레이 : 다이내믹 AMOLED 2X 인피니티 플렉스</p><br>
+                <p>메모리 : 12GB</p><br>
+                <p>저장용량 : 256GB / 512GB</p><br><br>
+                <button class="button"><a href="#">자세히 보기</a>
+            </div>
+
+            <div class="cont-lef2">
+                <img src="images/sumsung3.png" data-aos="zoom-in">
+            </div>
+        </div>
+
+        <!-- slide -->
+        <!-- Slider main container -->
+        <div id="swiper" class="fa-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="images/slide1.jpg">
+
+                    <div class="swiper-txt" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <P><span>2025년형 삼성 OLED 세계 최초 출시</span><br>
+                            최대 50만원 할인 쿠폰부터 무상수리서비스5년형,<br>
+                            멤버쉽포인트 5만+ 추가5만P, OTT 이용권까지!</P>
+                        <button>구매 혜택 보기</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="images/slide2.jpg">
+
+                    <div class="swiper-txt" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <P><span>BESPOKE AI 무풍콤보 갤러리 사전구매</span><br>
+                            기간 한정 최대 35% 할인 혜택!<br>
+                            공기청정기 사은품까지 놓치지 마세요</P>
+                        <button>구매 혜택 보기</button>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slide3.jpg">
+
+                    <div class="swiper-txt" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <P><span>BESPOKE 냉장고 베스트 컬렉션</span><br>
+                            2월 한정 BESPOKE 패널 특가와 함께<br>
+                            케어까지 생각한 삼성 AI 구독클럽도 만나보세요</P>
+                        <button>구매 혜택 보기</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+        <!-- tab1 -->
+        <div id="buticul-box">
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="active">
+                        <i class="fa fa-code"></i> 01
+                    </div>
+                    <div>
+                        <i class="fa fa-pencil-square"></i> 02
+                    </div>
+                    <div>
+                        <i class="fa fa-bar-chart"></i> 03
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i> 04
+                    </div>
+                </div>
+                <div class="tab-indicator"></div>
+                <div class="tab-content">
+
+                    <div class="active">
+                        <img src="images/story1.png">
+                        <h2>#보다 더 나은 내가 되기 위한 방법</h2>
+                        <p>내 안의 무한한 가능성을 펼칠 차례입니다.
+                            끝없는 열정으로 새롭고 다양한 영역에 도전하세요.<br>
+                            먼저 학습에 도움이 될 수 있도록 거실 공간부터 바꿔보는 건 어떨까요?
+                            적절한 환경 조성은 깊게 몰입하고 집중할 수 있도록 도와줍니다.<br>
+                            다양한 온라인 강의와 학습 자료 등 필요에 맞게 공간을 꾸미는 것도 좋은 방법이죠.
+                            어느 날 문득 악기 하나쯤 다뤄보고 싶을 수 있습니다.<br>
+                            그럴 땐 Neo QLED 8K에서 좋아하는 곡의 악보를 띄우고, Q 시리즈 사운드바로
+                            온라인 선생님이 시연하는 모든 음을 정확하게 들을 수 있습니다.<br>
+                            주변 환경을 세심하게 관리하는 것만으로 집중력을 높이는 것은 물론,
+                            나를 가꾸는 삶으로 나아갈 수 있습니다.</p>
+                    </div>
+
+                    <div>
+                        <img src="images/story2.png" data-aos="fade-up" data-aos-duration="3000">
+                        <h2>#내가 삶의 주인이 되는 세상에 없던 AI 라이프</h2>
+                        <p>삼성의 AI 제품이 열어가는 새로운 가능성의 시대를 함께 하세요.<br>
+                            스마트폰부터 TV, 가전제품에 이르기까지
+                            우리의 AI 혁신은 여러분의 일상을 더 나은 내일로 변화시킬 것입니다.<br>
+                            삼성 Knox, 온디바이스 AI와 같은 보안 솔루션을 기반으로
+                            안심하고 즐길 수 있는 AI 라이프를 제공합니다.</p>
+                    </div>
+
+                    <div>
+                        <img src="images/story3.png">
+                        <h2>#먹는 순간 심쿵! 발렌타인 특급 레시피
+                            하트 라비올리</h2>
+                        <p>발렌타인데이, 초콜릿만으로는 부족하다면?
+                            사랑스러운 하트 라비올리로
+                            특별한 감동을 선물하세요!<br>
+                            딸기잼과 생크림으로 만든 부드러운 핑크 소스가
+                            하트의 달콤함을 더욱 채워줄 거예요.<br>
+                            사랑하는 이와 함께할 로맨틱한 요리,
+                            지금 바로 시작해 볼까요?</p>
+                    </div>
+
+                    <div>
+                        <img src="images/story4.png">
+                        <h2>#뛰어난 디자인과 기술로 모두를 사로잡은
+                            삼성의 수상 제품을 만나보세요</h2>
+                        <p>미국 소비자기술협회에서 주관하는 세계 최대규모의 IT 가전 박람회로
+                            혁신적인 제품에 시상
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- footer -->
+        <footer>
+            <nav>
+                <a href='https://www.samsung.com/' target='_blank'>E-MAIL</a> |
+                <a href='https://www.samsung.com/' target='_blank'>SNS</a>
+            </nav>
+            <p>
+                <span>삼성전자 주식회사 대표이사 : 한종희 </span><br />
+                <span>사업장주소 : 경기도 수원시 영통구 삼성로 129(매탄동)</span><br />
+                <span>삼성닷컴 구매문의 : 1588-6084 </span>
+            </p>
+        </footer>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
